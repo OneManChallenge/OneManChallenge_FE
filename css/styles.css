@@ -1,0 +1,24 @@
+/* Meta CSS */
+@import "reset.css";
+/* @import "variables.css";
+@import "no-screen.css"; */
+
+/* Screen CSS*/
+
+      body {
+        padding: 50px;
+        min-width: 100px;
+        width: 95%;
+        min-height: 350px;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .img-logo {
+        width: 50%;
+        height: auto;
+      }

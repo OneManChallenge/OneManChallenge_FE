@@ -1,0 +1,43 @@
+.img-logo {
+    margin-bottom: 50px;
+    animation: logo-shrink 1s linear forwards;
+  }
+
+  .div-login {
+    height: auto;
+    width: 50%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .div-login-btn {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .div-login,
+  .div-login-btn {
+    opacity: 0;
+    visibility: hidden;
+    animation: show-login 1s 1s linear forwards;
+  }
+
+  @keyframes logo-shrink {
+    0% {
+      width: 100%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  @keyframes show-login {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+    }
+  }

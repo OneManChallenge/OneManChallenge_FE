@@ -1,0 +1,27 @@
+
+.img-logo {
+  margin-bottom: 50px;
+}
+
+.form-floating { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+
+.div-signup {
+  height: auto;
+  width: 50%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.div-signup-btn {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
